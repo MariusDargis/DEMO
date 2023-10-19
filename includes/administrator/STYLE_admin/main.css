@@ -1,0 +1,260 @@
+body {
+    background: rgb(121, 120, 120);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;   
+}
+
+button {
+    background: grey;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(243, 243, 243);
+   
+}
+
+h4 {
+    background: rgb(121, 120, 120);
+    position: fixed;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 40px;
+    margin-LEFT: 400px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    font-weight: 600;
+}
+
+
+
+.main_header {
+    position: fixed;
+    display: flex;
+    background: rgb(75, 46, 2);
+    width: 100vw;
+    height: 50px;
+    box-sizing:content-box;
+    border: 1px solid black;
+}
+
+.logo_css {
+    color: white;
+    background: rgb(15, 9, 0);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.menu{
+    background: rgb(75, 46, 2);
+    width: 80%;
+    
+
+}
+
+.menu ul{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.menu ul li {
+    color: rgb(224, 224, 189);
+    width: 400px;
+    font-size: 35px;
+    font-weight: 550;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px  rgb(19, 8, 0) inset; 
+    padding: 0px 10px;  
+}
+
+.menu ul li:hover {
+    background:rgb(75, 46, 25);
+    box-shadow: 1px 1px 20px  rgb(227, 243, 0) inset; 
+    transition: all ease-in-out 0.3s;
+   }
+
+.logout_css {
+    color: white;
+    background-color: rgb(192, 2, 2);
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logout_css:hover {
+    background-color: rgb(250, 30, 30);
+}
+
+.logout_css button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    height: 50px;
+    width: 300px; 
+}
+
+.section1 {
+    display: flex;
+    float:left;
+    left: 0px;
+    top: 52px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background: rgb(180, 179, 179);
+    width: 400px;
+    height: 100vh;
+    border: 1px solid black;
+    position: fixed;
+    padding-bottom: 50px;
+    
+   
+}
+
+.field_css {
+    margin: 5px;
+    background-color: rgb(197, 193, 193);
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    box-shadow:  2px 2px 4px #888888;
+}
+
+.field_css:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.box {
+    background-color: rgb(173, 171, 171);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height:fit-content;
+    width: fit-content;
+    box-shadow:  10px 10px 30px #888888;
+    padding-bottom: 20px;  
+    width: 100%;
+}
+
+.but_css {
+    display: flex;
+    justify-content: center;
+}
+
+.button_css {
+    display: flex;
+    align-items: center; 
+    background: green;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button_css:hover {
+    background: rgb(2, 202, 2);
+
+}
+
+.section2 {
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background: rgb(180, 179, 179);
+    width: 100vw;
+    margin-left: 450px;
+    margin-right: 50px;
+    margin-top: 150px;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+.results_box {
+ display: flex;
+ background: rgb(180, 179, 179);
+ padding: 5px;
+ padding-top: 20px;
+ 
+}
+
+.results_box_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 218, 218);
+    border: 2px solid black;
+    border-right: 0px solid black;
+    height: 100px;
+    width: 100px
+
+}
+
+.results_box_mid {
+    width: 100%;
+    
+    
+}
+.results_box_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    background: rgb(219, 218, 218);
+    border: 2px solid black;
+    border-bottom: 0px solid black;
+    height: 30px;
+    
+}
+
+.results_box_3 {
+    background: rgb(219, 218, 218);
+    border: 2px solid black;
+    height: 70px;
+    padding: 10px;
+    
+}
+
+.results_box_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 218, 218);
+    border: 2px solid black;
+    border-left: 0px solid black;
+    height: 100px;
+    width: 100px
+}

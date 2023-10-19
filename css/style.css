@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(121, 120, 120);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+h1 {
+    padding: 0;
+    margin: 0; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-decoration: underline;
+    height: 80px;
+    margin-top: 50px;
+    position: fixed;
+}
+
+h7  {
+
+    position: fixed;
+    width: 300px;
+    height: fit-content;
+    background: rgb(190, 190, 190);
+    color: rgb(138, 7, 7);
+    margin-top: 700px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.box {
+    background-color: rgb(173, 171, 171);
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    border: 2px solid black;
+    height:fit-content;
+    width: 300px;
+    box-shadow:  10px 10px 30px #888888;
+    padding-bottom: 20px;
+    position: fixed;
+
+    
+}
+
+
+
+.but_css {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.field1_css {
+    margin: 5px;
+    background-color: rgb(197, 193, 193);
+    height: 30px;
+    width: 150px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    box-shadow:  2px 2px 4px #888888;
+    
+}
+
+.field1_css:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.field2_css {
+    margin: 5px;
+    background-color: rgb(197, 193, 193);
+    height: 30px;
+    width: 150px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    box-shadow:  2px 2px 4px #888888;
+    
+}
+
+.field2_css:hover {
+    background-color: rgb(255, 254, 254);
+    
+}
+
+.button1_css {
+    background-color: rgb(19, 131, 9);
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow:  2px 2px 4px #888888;
+
+    
+}
+
+.button1_css:hover {
+    background-color: rgb(21, 255, 0);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px orange inset;
+   
+}
+
+.button2_css {
+    background-color: rgb(19, 131, 9);
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow:  2px 2px 4px #888888;
+}
+
+.button2_css:hover {
+    background-color: rgb(21, 255, 0);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px orange inset;
+   
+}
+
